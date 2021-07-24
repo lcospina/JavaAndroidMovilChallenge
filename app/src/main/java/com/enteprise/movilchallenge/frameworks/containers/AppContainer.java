@@ -1,4 +1,4 @@
-package com.enteprise.movilchallenge.data.containers;
+package com.enteprise.movilchallenge.frameworks.containers;
 
 import com.enteprise.movilchallenge.data.datasources.remote.CityDataSourceRemoteImpl;
 import com.enteprise.movilchallenge.data.repositories.CityRepositoryImpl;

@@ -7,11 +7,8 @@ import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
-import com.enteprise.movilchallenge.data.containers.MyApplication;
-import com.enteprise.movilchallenge.data.datasources.remote.CityDataSourceRemoteImpl;
-import com.enteprise.movilchallenge.data.repositories.CityRepositoryImpl;
+import com.enteprise.movilchallenge.frameworks.containers.MyApplication;
 import com.enteprise.movilchallenge.domain.models.City;
-import com.enteprise.movilchallenge.domain.repositories.CityRepository;
 import com.enteprise.movilchallenge.domain.usecases.city.SearchCityImp;
 import com.enteprise.movilchallenge.domain.usecases.city.SearchCityUseCase;
 

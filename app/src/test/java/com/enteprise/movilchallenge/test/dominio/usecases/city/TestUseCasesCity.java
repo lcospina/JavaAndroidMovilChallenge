@@ -1,6 +1,5 @@
 package com.enteprise.movilchallenge.test.dominio.usecases.city;
 
-import com.enteprise.movilchallenge.data.containers.MyApplication;
 import com.enteprise.movilchallenge.data.datasources.remote.CityDataSourceRemoteImpl;
 import com.enteprise.movilchallenge.data.repositories.CityRepositoryImpl;
 import com.enteprise.movilchallenge.domain.models.City;

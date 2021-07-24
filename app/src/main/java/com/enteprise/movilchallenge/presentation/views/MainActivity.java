@@ -10,9 +10,8 @@ import android.os.Handler;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
-import android.widget.EditText;
 
-import com.enteprise.movilchallenge.data.containers.MyApplication;
+import com.enteprise.movilchallenge.frameworks.containers.MyApplication;
 import com.enteprise.movilchallenge.presentation.adapters.CitysResultsAdapter;
 import com.enteprise.movilchallenge.databinding.ActivityMainBinding;
 import com.enteprise.movilchallenge.domain.models.City;

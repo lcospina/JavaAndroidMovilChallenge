@@ -1,4 +1,4 @@
-package com.enteprise.movilchallenge.data.containers;
+package com.enteprise.movilchallenge.frameworks.containers;
 
 import android.app.Application;
 

@@ -1,34 +1,22 @@
 package com.enteprise.movilchallenge.presentation.adapters;
 
 import android.annotation.SuppressLint;
-import android.app.AlertDialog;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.HorizontalScrollView;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.cardview.widget.CardView;
 import androidx.lifecycle.LifecycleOwner;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.Observer;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.enteprise.movilchallenge.data.containers.AppContainer;
-import com.enteprise.movilchallenge.data.containers.MyApplication;
-import com.enteprise.movilchallenge.data.datasources.remote.CityDataSourceRemoteImpl;
-import com.enteprise.movilchallenge.data.repositories.CityRepositoryImpl;
-import com.enteprise.movilchallenge.databinding.CityInfoBinding;
+import com.enteprise.movilchallenge.frameworks.containers.AppContainer;
 import com.enteprise.movilchallenge.databinding.CityItemBinding;
 import com.enteprise.movilchallenge.domain.models.City;
 import com.enteprise.movilchallenge.domain.models.CitySpecificData;
-import com.enteprise.movilchallenge.domain.repositories.CityRepository;
-import com.enteprise.movilchallenge.domain.usecases.city.SearchCityImp;
 import com.enteprise.movilchallenge.domain.usecases.city.SearchWeatherByCityImp;
 import com.enteprise.movilchallenge.presentation.utils.Utilitys;
 
